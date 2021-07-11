@@ -34,7 +34,7 @@ function App(){
           <Nav>
             <Nav.Link className = 'navitem'  href="/" >Home</Nav.Link>
             <Nav.Link className = 'navitem' href="/about">About</Nav.Link>
-            <Nav.Link className = 'navitem' href="pawsibilitytraining.com/servicetime">Services</Nav.Link>
+            <Nav.Link className = 'navitem' href="/servicetime">Services</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
 
