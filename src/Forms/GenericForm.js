@@ -72,38 +72,6 @@ class GenericForm extends React.Component{
          }, function(error) {
             console.log('FAILED...', error);
          });
-
-
-      
-
-
-        // const itemsRef = firebase.database().ref('Submissions')
-
-        // const data = [
-        //     'Type:  '+this.props.type, 
-        //     'Full Name:  '+this.state.fname,
-        //     'Phone:  '+this.state.phone,
-        //     'Email:  '+this.state.email,
-        //     'Address:  '+this.state.address,
-        //     'Best way and time to contact:  '+this.state.bestway,
-        //     'How did you hear about Pawsibility Training?: ' +this.state.howhear,
-        //     'What kind of dog(s) do you have? How old are they? Are they spayed/neutered?:  '+this.state.whatkind,
-        //     'How long have you had your dogs?:  '+this.state.howlong,
-        //     'Is your dog crate trained?:  '+this.state.cratetrained,
-        //     'What would you like to would you like to work on with your dogs?:  ' + this.state.chewinghabits+this.state.nipping
-        //     +this.state.teething+this.state.jumping+this.state.pottytraining+this.state.cratetraining+this.state.nailtrimming+this.state.earcleaning
-        //     +this.state.tricktraining+this.state.recall+this.state.leashwalking+this.state.other,
-        //     'Please explain a little bit about your dog(s) and areas you would like to work on...:  '+this.state.pleaseexplain,
-        //     'Who lives in your household and how old are they? What is their relationship to the dog(s)?:  '+ this.state.wholives,
-        //     'Have you ever used a dog trainer/behaviorist/psychologist before? Please share your experiences.:  ' +this.state.haveyou,
-        //     'Questions/additional information:  '+this.state.questions
-
-        // ]
-    
-        // itemsRef.push(
-        //     data
-        // , ()=> {window.location.href = '/submissioncomplete'}
-        // )
     }
 
     handleChange(e){
