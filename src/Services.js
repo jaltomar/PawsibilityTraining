@@ -46,7 +46,7 @@ class Services extends React.Component{
                         <div className = 'servicetextdiv' >
                             <h2 style = {{textAlign: 'center'}}>General Obedience</h2>
                             <p>
-                            A strong foundation is essential for success with your dog. Your dog should be able to sit, down, stay, come, ???even in stressful situations. Basic obedience can help your dog to remain calm under duress as well as keep them, and others around you, safe. Obedience is important during times when you have visitors to your home, when you take your dog out in public, and even when you are alone with your dog.                            </p>
+                            A strong foundation is essential for success with your dog. Your dog should be able to sit, down, stay, and come even in, and especially in, stressful situations. You should not have to worry about your dog dragging you down the street on a walk. Basic obedience can help your dog to remain calm in distracting environments as well as keep them, and others around you, safe. Obedience is important during times when you have visitors to your home, when you take your dog out in public, and even when you are alone with your dog.                    </p>
                           
                             <Button className = 'mybutton' href = '/obedience' >Sign Up</Button>
                         </div>
@@ -59,7 +59,7 @@ class Services extends React.Component{
                         <div className = 'servicetextdiv' >
                             <h2 style = {{textAlign: 'center'}}>Doggy Upkeep</h2>
                             <p>
-                            Did you know that dogs should have their nails trimmed every 2 weeks. For many dogs, routine care such as nail trimming and ear cleaning can cause anxiety and spark fear. These essential procedures can also stress you out! I can help you and your dog become more comfortable with ear cleaning and nail trimming, complete cleaning and trimming, as well as teach you how to do it yourself.
+                            Did you know that dogs should have their nails trimmed every 2 weeks? For many dogs, routine care such as nail trimming and ear cleaning can cause anxiety and spark fear. These essential procedures can also stress you out! We can help you and your dog become more comfortable with ear cleaning and nail trimming, complete cleaning and trimming, as well as teach you how to do it yourself.
                             </p>
                  
                             <Button className = 'mybutton' href = '/upkeep' >Sign Up</Button>
@@ -73,7 +73,7 @@ class Services extends React.Component{
                         <div className = 'servicetextdiv' >
                             <h2 style = {{textAlign: 'center'}}>Tricks and Agility</h2>
                             <p>
-                            Teaching your dog a variety of tricks and skills can improve your dog’s confidence and can be  A CRITICAL PART of a healthy routine>?? Exercising your dog’s brain can tire them in a different way than phsyical exercise does. Spending time on tricks can help to decrease other undesirable behaviors, such as chewing and restlessness.                            </p>
+                            Teaching your dog a variety of tricks and skills can improve your dog’s confidence and can be an integral part of a healthy routine. Exercising your dog’s brain can tire them in a different way than physical exercise does. Spending time on tricks can help to decrease other undesirable behaviors, such as chewing and restlessness. This training can also help to decrease your dog’s general anxiety. Most of all, though, tricks are fun for both of you!                    </p>
                            
                             <Button className = 'mybutton' href = '/tricks-agility' >Sign Up</Button>
                         </div>
