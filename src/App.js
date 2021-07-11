@@ -34,7 +34,7 @@ function App(){
           <Nav>
             <Nav.Link className = 'navitem'  href="/" >Home</Nav.Link>
             <Nav.Link className = 'navitem' href="/about">About</Nav.Link>
-            <Nav.Link className = 'navitem' href="/services">Services</Nav.Link>
+            <Nav.Link className = 'navitem' href="pawsibilitytraining.com/servicetime">Services</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
 
@@ -43,7 +43,7 @@ function App(){
 
         <Switch>
          <Route path = "/" exact component = {Home} />
-         <Route path = "pawsibilitytraining.com/services" component = {Services} />
+         <Route path = "pawsibilitytraining.com/servicetime" component = {Services} />
          <Route path = "/about" exact component = {About} />
          <Route path = "/puppybasics" exact component = {PuppyBasicForm} />
          <Route path = "/upkeep" exact component = {UpkeepForm} />
