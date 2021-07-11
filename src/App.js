@@ -44,7 +44,7 @@ function App(){
         <Switch>
          <Route path = "/" exact component = {Home} />
          <Route path = "/services" component = {Services} />
-         <Route path = "PawsibilityTraining/about" exact component = {About} />
+         <Route path = {process.env.PUBLIC_URL + "/about"} exact component = {About} />
          <Route path = "/puppybasics" exact component = {PuppyBasicForm} />
          <Route path = "/upkeep" exact component = {UpkeepForm} />
          <Route path = "/tricks-agility" exact component = {TrickForm} />
