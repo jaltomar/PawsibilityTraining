@@ -43,7 +43,7 @@ function App(){
 
         <Switch>
          <Route path = "/" exact component = {Home} />
-         <Route path = "/services" component = {Services} />
+         <Route path = "pawsibilitytraining.com/services" component = {Services} />
          <Route path = "/about" exact component = {About} />
          <Route path = "/puppybasics" exact component = {PuppyBasicForm} />
          <Route path = "/upkeep" exact component = {UpkeepForm} />
