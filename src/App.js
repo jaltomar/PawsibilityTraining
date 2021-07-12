@@ -56,7 +56,7 @@ const fixHome = ()=>{
           <Nav>
             <Nav.Link onClick = {fixHome} className = 'navitem'  href="/" style = {home? {color: '#091010'}: {color: '#2b5153'}} >Home</Nav.Link>
             <Nav.Link onClick = {handleHome} className = 'navitem' href="/about">AboutMAN</Nav.Link>
-            <Nav.Link onClick = {handleHome}className = 'navitem' href="/services">Services</Nav.Link>
+            <Nav.Link onClick = {handleHome}className = 'navitem' href="/services">ServicesDOG</Nav.Link>
             <Nav.Link onClick = {handleHome}href="/contact">Contact</Nav.Link>
           </Nav>
 
