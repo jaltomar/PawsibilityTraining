@@ -1,6 +1,6 @@
 import React from 'react'
 import {Nav, Navbar, Button, Form, FormControl} from 'react-bootstrap'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './Home'
 import Services from './Services'
 import About from './About'
@@ -33,9 +33,9 @@ function App(){
           {/* <Navbar.Brand className ='logo' href="/"><img  src = {doggo} style = {{width: '30px'}} /></Navbar.Brand> */}
           <Nav>
             <Nav.Link className = 'navitem'  href="/" >Home</Nav.Link>
-            <Nav.Link className = 'navitem' href="/about">About</Nav.Link>
-            <Nav.Link className = 'navitem' href="/Services">Services</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link className = 'navitem' href="#about">About</Nav.Link>
+            <Nav.Link className = 'navitem' href="#services">Services</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
 
         </Navbar>
@@ -43,7 +43,7 @@ function App(){
 
         <Switch>
          <Route path = "/" exact component = {Home} />
-         <Route path = "/static/js/Services.js" component = {Services} />
+         <Route path = "/services" component = {Services} />
          <Route path = "/about" exact component = {About} />
          <Route path = "/puppybasics" exact component = {PuppyBasicForm} />
          <Route path = "/upkeep" exact component = {UpkeepForm} />
