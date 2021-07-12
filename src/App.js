@@ -1,6 +1,6 @@
 import React from 'react'
 import {Nav, Navbar, Button, Form, FormControl} from 'react-bootstrap'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './Home'
 import Services from './Services'
 import About from './About'
@@ -55,9 +55,9 @@ const fixHome = ()=>{
           {/* <Navbar.Brand className ='logo' href="/"><img  src = {doggo} style = {{width: '30px'}} /></Navbar.Brand> */}
           <Nav>
             <Nav.Link onClick = {fixHome} className = 'navitem'  href="/" style = {home? {color: '#091010'}: {color: '#2b5153'}} >Home</Nav.Link>
-            <Nav.Link onClick = {handleHome} className = 'navitem' href="/about">AboutMAN</Nav.Link>
-            <Nav.Link onClick = {handleHome}className = 'navitem' href="/services">ServicesDOG</Nav.Link>
-            <Nav.Link onClick = {handleHome}href="/contact">Contact</Nav.Link>
+            <Nav.Link onClick = {handleHome} className = 'navitem' href="#about">AboutMAN</Nav.Link>
+            <Nav.Link onClick = {handleHome}className = 'navitem' href="#services">ServicesDOG</Nav.Link>
+            <Nav.Link onClick = {handleHome}href="#contact">Contact</Nav.Link>
           </Nav>
 
         </Navbar>
