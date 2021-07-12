@@ -97,7 +97,7 @@ Before we can create an individualized plan to help you and your dog, we want to
 
 
             
-            <p style = {{fontSize: '16pt'}}> Ready to start? Check out our <a href = '/services'> services</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Got questions? <a href = '/contact'> Contact us</a>
+            <p style = {{fontSize: '16pt'}}> Ready to start? Check out our <a href = '#services'> services</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Got questions? <a href = '#contact'> Contact us</a>
             </p>
 
 

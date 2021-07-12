@@ -68,7 +68,7 @@ class GenericForm extends React.Component{
         emailjs.send("service_51vgzp5","template_ef1rrab",templateParams,'user_jOcO3IUILgz5xev2ZpNaE')
           .then(function(response) {
             console.log('SUCCESS!', response.status, response.text)
-           window.location.href = '/submissioncomplete'
+           window.location.href = '#submissioncomplete'
          }, function(error) {
             console.log('FAILED...', error);
          });
