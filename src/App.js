@@ -12,10 +12,32 @@ import TrickForm from './Forms/TrickForm'
 import UpkeepForm from './Forms/UpkeepForm'
 import ThankYou from './Forms/ThankYou'
 import Contact from './Contact'
+import {useEffect, useState} from 'react'
 
 function App(){
 
+  const [home,setHome] = useState(false)
 
+
+
+
+
+
+
+  useEffect(()=>{
+    setHome(true)
+    console.log("home"+home)
+    
+  },[])
+
+ 
+const handleHome = ()=>{
+  setHome(false)
+}
+  
+const fixHome = ()=>{
+  setHome(true)
+}
 
 
   return(
@@ -32,10 +54,10 @@ function App(){
    
           {/* <Navbar.Brand className ='logo' href="/"><img  src = {doggo} style = {{width: '30px'}} /></Navbar.Brand> */}
           <Nav>
-            <Nav.Link className = 'navitem'  href="#/" >Home</Nav.Link>
-            <Nav.Link className = 'navitem' href="#about">About</Nav.Link>
-            <Nav.Link className = 'navitem' href="#services">Services</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link onClick = {fixHome} className = 'navitem'  href="#/" style = {home? {color: '#091010'}: {color: '#2b5153'}} >Home</Nav.Link>
+            <Nav.Link onClick = {handleHome} className = 'navitem' href="#about">About</Nav.Link>
+            <Nav.Link onClick = {handleHome}className = 'navitem' href="#services">Services</Nav.Link>
+            <Nav.Link onClick = {handleHome}href="#contact">Contact</Nav.Link>
           </Nav>
 
         </Navbar>
