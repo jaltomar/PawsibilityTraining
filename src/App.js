@@ -50,16 +50,18 @@ const fixHome = ()=>{
       </div>
 
 
-        <Navbar className={"navstyle"} bg="ligt" style = {{backgroundColor: '#56A3A6'}} variant="light">
+        <Navbar collapseOnSelect expand="sm" className={"navstyle"} style = {{backgroundColor: '#56A3A6'}} variant="light">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
    
           {/* <Navbar.Brand className ='logo' href="/"><img  src = {doggo} style = {{width: '30px'}} /></Navbar.Brand> */}
-          <Nav>
+          <Nav className = "mr-auto">
             <Nav.Link onClick = {fixHome} className = 'navitem'  href="#/" style = {home? {color: '#091010'}: {color: '#2b5153'}} >Home</Nav.Link>
             <Nav.Link onClick = {handleHome} className = 'navitem' href="#about">About</Nav.Link>
             <Nav.Link onClick = {handleHome}className = 'navitem' href="#services">Services</Nav.Link>
             <Nav.Link onClick = {handleHome}href="#contact">Contact</Nav.Link>
           </Nav>
-
+        </Navbar.Collapse>
         </Navbar>
 
 
