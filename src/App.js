@@ -21,7 +21,7 @@ function App(){
   return(
 
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router >
       <div className = 'topdiv' >
       <img  src = {doggo} style = {{width: '75px', marginTop:'10px'}} />
       <h2> Pawsibility Training</h2>
@@ -32,7 +32,7 @@ function App(){
    
           {/* <Navbar.Brand className ='logo' href="/"><img  src = {doggo} style = {{width: '30px'}} /></Navbar.Brand> */}
           <Nav>
-            <Nav.Link className = 'navitem'  href="#/" >Home</Nav.Link>
+            <Nav.Link className = 'navitem'  href="/" >Home</Nav.Link>
             <Nav.Link className = 'navitem' href="#about">About</Nav.Link>
             <Nav.Link className = 'navitem' href="#services">Services</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
