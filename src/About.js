@@ -9,7 +9,7 @@ class About extends React.Component{
     render(){
         return(
             <div style = {{textAlign: 'center'}}>
-
+{/* <h1>hi</h1> */}
 
 
             <div className = 'leadtraindiv' style = {{marginRight: '50px'}}>

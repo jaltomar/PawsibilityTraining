@@ -19,13 +19,24 @@ function App(){
 
   const[currentPage, setCurrentPage] = useState('') 
 
-  
+
   useEffect(()=>{
+    console.log(window.location.href)
+
+
 
 if (localStorage.getItem('mypage')===null){
-  setCurrentPage('home')
+  console.log(localStorage.getItem('mypage'))
+  setCurrentPage('mehome')
 }
+// else if (window.location.href==='http://localhost:3004/#/' && localStorage.getItem('mypage')!==null){
+//   console.log('YOO')
+//   setCurrentPage('mehome')
+// }
+
 else{
+  console.log('what')
+  console.log(localStorage.getItem('mypage'))
   setCurrentPage(localStorage.getItem('mypage'))
 }   
   },[])
@@ -41,7 +52,8 @@ localStorage.setItem('mypage', e.target.name)
   return(
 
     <div>
-      <Router >
+      <Router>
+
       <div className = 'topdiv' >
       <img  src = {doggo} style = {{width: '75px', marginTop:'10px'}} />
       <h2> Pawsibility Training</h2>
@@ -51,13 +63,18 @@ localStorage.setItem('mypage', e.target.name)
         <Navbar collapseOnSelect expand="sm" className={"navstyle"} style = {{backgroundColor: '#56A3A6'}} variant="light">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
+
+
+          {/* style = {currentPage === 'home'? {color: '#091010'} : {color: '#2b5153'}} */}
+          {/* onClick = {choosePage}  */}
+
    
           {/* <Navbar.Brand className ='logo' href="/"><img  src = {doggo} style = {{width: '30px'}} /></Navbar.Brand> */}
-          <Nav className = "mr-auto">
-            <Nav.Link name = 'home' onClick = {choosePage} className = 'navitem' style = {currentPage === 'home'? {color: '#091010'} : {color: '#2b5153'}} href="#/" >Home</Nav.Link>
-            <Nav.Link name = 'about' onClick = {choosePage} className = 'navitem'style = {currentPage === 'about'? {color: '#091010'} : {color: '#2b5153'}} href="#about">About</Nav.Link>
-            <Nav.Link name = 'services' onClick = {choosePage} className = 'navitem'style = {currentPage === 'services'? {color: '#091010'} : {color: '#2b5153'}} href="#services">Services</Nav.Link>
-            <Nav.Link name = 'contact' onClick = {choosePage} style = {currentPage === 'contact'? {color: '#091010'} : {color: '#2b5153'}} href="#contact">Contact</Nav.Link>
+          <Nav className = "">
+            <Nav.Link name = 'mehome' onClick = {choosePage}  className = 'navitem' style = {currentPage === 'mehome'? {color: '#091010'} : {color: '#2b5153'}}  href="#/" >Home</Nav.Link>
+            <Nav.Link name = 'meabout' onClick = {choosePage}  className = 'navitem' style = {currentPage === 'meabout'? {color: '#091010'} : {color: '#2b5153'}} href="#about">About</Nav.Link>
+            <Nav.Link name = 'meservices' onClick = {choosePage}  className = 'navitem' style = {currentPage === 'meservices'? {color: '#091010'} : {color: '#2b5153'}} href="#services">Services</Nav.Link>
+            <Nav.Link name = 'mecontact' onClick = {choosePage} style = {currentPage === 'mecontact'? {color: '#091010'} : {color: '#2b5153'}} href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Navbar>
