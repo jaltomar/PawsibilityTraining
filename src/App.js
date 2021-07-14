@@ -21,23 +21,17 @@ function App(){
 
 
   useEffect(()=>{
-    console.log(window.location.href)
 
-
-
-if (localStorage.getItem('mypage')===null || window.location.href === 'https://pawsibilitytraining.com/#/'){
-  console.log(localStorage.getItem('mypage'))
+if (window.location.href === 'https://pawsibilitytraining.com/#/'){
   setCurrentPage('mehome')
 }
-// else if (window.location.href==='http://localhost:3004/#/' && localStorage.getItem('mypage')!==null){
-//   console.log('YOO')
-//   setCurrentPage('mehome')
-// }
-
 else{
-  console.log('what')
-  console.log(localStorage.getItem('mypage'))
+  try{
   setCurrentPage(localStorage.getItem('mypage'))
+  }
+  catch{
+    setCurrentPage('mehome')
+  }
 }   
   },[])
 
