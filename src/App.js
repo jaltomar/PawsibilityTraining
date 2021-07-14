@@ -16,28 +16,26 @@ import {useEffect, useState} from 'react'
 
 function App(){
 
-  const [home,setHome] = useState(false)
 
+  const[currentPage, setCurrentPage] = useState('') 
 
-
-
-
-
-
+  
   useEffect(()=>{
-    setHome(true)
-    console.log("home"+home)
-    
+
+if (localStorage.getItem('mypage')===null){
+  setCurrentPage('home')
+}
+else{
+  setCurrentPage(localStorage.getItem('mypage'))
+}   
   },[])
 
  
-const handleHome = ()=>{
-  setHome(false)
+const choosePage = (e)=>{
+setCurrentPage(e.target.name)
+localStorage.setItem('mypage', e.target.name)
 }
-  
-const fixHome = ()=>{
-  setHome(true)
-}
+
 
 
   return(
@@ -56,10 +54,10 @@ const fixHome = ()=>{
    
           {/* <Navbar.Brand className ='logo' href="/"><img  src = {doggo} style = {{width: '30px'}} /></Navbar.Brand> */}
           <Nav className = "mr-auto">
-            <Nav.Link onClick = {fixHome} className = 'navitem'  href="#/" style = {home? {color: '#091010'}: {color: '#2b5153'}} >Home</Nav.Link>
-            <Nav.Link onClick = {handleHome} className = 'navitem' href="#about">About</Nav.Link>
-            <Nav.Link onClick = {handleHome}className = 'navitem' href="#services">Services</Nav.Link>
-            <Nav.Link onClick = {handleHome}href="#contact">Contact</Nav.Link>
+            <Nav.Link name = 'home' onClick = {choosePage} className = 'navitem' style = {currentPage === 'home'? {color: '#091010'} : {color: '#2b5153'}} href="#/" >Home</Nav.Link>
+            <Nav.Link name = 'about' onClick = {choosePage} className = 'navitem'style = {currentPage === 'about'? {color: '#091010'} : {color: '#2b5153'}} href="#about">About</Nav.Link>
+            <Nav.Link name = 'services' onClick = {choosePage} className = 'navitem'style = {currentPage === 'services'? {color: '#091010'} : {color: '#2b5153'}} href="#services">Services</Nav.Link>
+            <Nav.Link name = 'contact' onClick = {choosePage} style = {currentPage === 'contact'? {color: '#091010'} : {color: '#2b5153'}} href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Navbar>
