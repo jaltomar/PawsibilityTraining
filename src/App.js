@@ -25,7 +25,7 @@ function App(){
 
 
 
-if (localStorage.getItem('mypage')===null){
+if (localStorage.getItem('mypage')===null || window.location.href === 'https://pawsibilitytraining.com/#/'){
   console.log(localStorage.getItem('mypage'))
   setCurrentPage('mehome')
 }
