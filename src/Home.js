@@ -12,6 +12,7 @@ class Home extends React.Component{
 //color: '#2b5153' is color of darkest cyan in nav bar text
 
     render(){
+        window.scrollTo(0,0)
         return(
             <div style ={{textAlign: 'center', color: '#482728'}}>
                 <div className = 'hometext1div'>

@@ -10,6 +10,7 @@ class ObedienceForm extends React.Component{
 
 
     render(){
+        window.scrollTo(0,0)
         return(
             <div className = 'myform'>
                 <h1 style = {{color: '#482728'}}>General Obedience Form</h1><br/>

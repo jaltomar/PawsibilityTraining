@@ -7,6 +7,7 @@ class About extends React.Component{
 
 
     render(){
+        window.scrollTo(0,0)
         return(
             <div style = {{textAlign: 'center'}}>
 {/* <h1>hi</h1> */}

@@ -30,6 +30,7 @@ function Contact(){
         setText(e.target.value)
     }
 
+    window.scrollTo(0,0)
 
     return(
         <div style = {{textAlign: 'center', marginTop: '3%', fontSize: '22px', color: '#482728'}}>
