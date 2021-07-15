@@ -55,7 +55,7 @@ class Home extends React.Component{
 
                 <div style = {{textAlign: 'center'}}> 
 
-                <div style = {{fontSize: '18pt', marginBottom: '20px', display: 'inline-block', verticalAlign: 'top', marginRight: '10%', marginLeft: '10%', textAlign: 'center'}}>
+                <div style = {{fontSize: '18pt', marginBottom: '20px', display: 'inline-block', verticalAlign: 'top', marginRight: '5%', marginLeft: '5%', textAlign: 'center'}}>
 
           
                 <h3>Expertise</h3>
@@ -83,7 +83,7 @@ class Home extends React.Component{
                 </div>
 
 
-            <div style = {{display: 'inline-block', width: '40%', minWidth: '300px', verticalAlign: 'top', textAlign: 'center', border: 'red solid 0px'}}>
+            <div style = {{display: 'inline-block', width: '40%', minWidth: '300px', verticalAlign: 'top', textAlign: 'center', border: 'red solid 0px', marginRight: '5%', marginLeft: '5%'}}>
 
          
                 <p style = {{fontSize: '16pt', textAlign: 'left'}}>   
