@@ -75,7 +75,7 @@ localStorage.setItem('mypage', e.target.name)
 
 
         <Switch>
-         <Route path = "/" exact component = {Home} />
+         <Route path = "/" exact render = {() => (<Home myfunc={choosePage}/>)}/>
          <Route path = "/services" component = {Services} />
          <Route path = "/about" exact component = {About} />
          <Route path = "/puppybasics" exact component = {PuppyBasicForm} />
