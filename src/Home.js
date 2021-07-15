@@ -103,11 +103,11 @@ Before we can create an individualized plan to help you and your dog, we want to
 
             <div width = '60%' style ={{minWidth: '350x'}}>
 
-                <div style = {{display: 'inline-block', padding: '0 20px 0 20px', textAlign: 'left'}}>
+                <div style = {{display: 'inline-block', padding: '0 20px 0 20px', textAlign: 'center'}}>
                 <p style = {{fontSize: '16pt', display: 'inline' }}> Ready to start? Check out our <a href = '#services'> services</a></p>
                 </div>
 
-                <div style = {{display: 'inline-block', padding: '0 20px 0 20px', textAlign: 'left'}}>
+                <div style = {{display: 'inline-block', padding: '0 20px 0 20px', textAlign: 'center'}}>
                 <p style = {{fontSize: '16pt', display: 'inline'}}>
                 Got questions? <a href = '#contact'> Contact us</a>
                 </p>
