@@ -55,27 +55,27 @@ class Home extends React.Component{
 
                 <div style = {{textAlign: 'center'}}> 
 
-                <div style = {{fontSize: '18pt', marginBottom: '20px', display: 'inline-block', verticalAlign: 'top', marginRight: '10%', marginLeft: '10%', textAlign: 'center', border: 'red solid 0px'}}>
+                <div style = {{fontSize: '18pt', marginBottom: '20px', display: 'inline-block', verticalAlign: 'top', marginRight: '10%', marginLeft: '10%', textAlign: 'center'}}>
 
           
                 <h3>Expertise</h3>
                     <div style = {{display: 'inline-block', fontSize: '16pt'}}>
-                        <ul style = {{paddingLeft: '2.2vw'}}>
-                            <li>Potty training</li>
-                            <li>Teething </li>
-                            <li>Mouthing</li>
-                            <li>Leash walking</li>
-                            <li>Recall</li>
+                        <ul style = {{paddingLeft: '25px'}}>
+                            <li><span> Potty training</span></li>
+                            <li><span> Teething</span> </li>
+                            <li><span>Mouthing</span></li>
+                            <li><span>Leash walking</span></li>
+                            <li><span>Recall</span></li>
                         </ul>
                     </div>
 
                     <div style = {{display: 'inline-block', fontSize: '16pt'}}>
                         <ul >
-                        <li>Crate training</li>
-                            <li>Nail trimming</li>
-                            <li>Ear cleaning</li>
-                            <li>Trick training</li>
-                            <li>And more</li>
+                        <li> <span> Crate training</span></li>
+                            <li><span>Nail trimming</span></li>
+                            <li><span>Ear cleaning</span></li>
+                            <li><span>Trick training</span></li>
+                            <li><span>And more</span></li>
                         </ul>
                     </div>
               
@@ -101,7 +101,7 @@ Before we can create an individualized plan to help you and your dog, we want to
             <br/><br/><br/>
 
 
-            <div width = '60%' style ={{minWidth: '400px'}}>
+            <div width = '60%' style ={{minWidth: '350x'}}>
 
                 <div style = {{display: 'inline-block', padding: '0 20px 0 20px', textAlign: 'left'}}>
                 <p style = {{fontSize: '16pt', display: 'inline' }}> Ready to start? Check out our <a href = '#services'> services</a></p>

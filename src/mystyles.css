@@ -186,6 +186,12 @@ vertical-align: middle;
   /* overflow: hidden; */
 }
 
+li span {
+  position: relative;
+  left: -10px;
+}
+
+
 .pic{
 
   /* max-width: 100%;
