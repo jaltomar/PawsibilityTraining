@@ -16,13 +16,16 @@ class Home extends React.Component{
         window.scrollTo(0,0)
         return(
             <div style ={{textAlign: 'center', color: '#482728'}}>
-                <div className = 'hometext1div'>
-                    <h3 className = 'hometext1'> Learn how to strengthen the relationship with your dog so that you are both happier.  Discover what's pawsible today. </h3>
-                </div>
 
                 <div className = 'homepicdiv'>
-                    <img className = 'homepic' width= '100%' src = {goldie} alt = "goldie"/>
-                </div>
+                    <div className = 'hometext1div'>
+                        <h3 className = 'hometext1'> Learn how to strengthen the relationship with your dog so that you are both happier.  Discover what's pawsible today. </h3>
+                    </div>
+
+                    <div className = 'homepicdiv'>
+                        <img className = 'homepic' width= '100%' src = {goldie} alt = "goldie"/>
+                    </div>
+                </div> 
                 <br/>
 
 
