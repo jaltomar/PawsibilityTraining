@@ -324,8 +324,7 @@ top: -4vw;
 }
 
 .hometext1{
-  font-size:calc(6px + 2vw);
-  /* font-size: 2.5vw; */
+  font-size: 2.5vw;
   /* font-family: 'Courier New', Courier, monospace; */
   font-family: Didot;
   /* color: pink; */
@@ -335,19 +334,16 @@ top: -4vw;
 
 .hometext1div{
   display: inline-block;
-  padding: 0 8px 0 8px;
   /* left: 50%;
   top: 50%;
   transform: translate(-50%, -50%); */
-left: .5%;
-margin-bottom: -50px;
-  margin-top: 3%;
+left: 4%;
+  margin-top: 8%;
   border-radius: 25px;
-  background-color: rgb(78, 147, 150, .7);
+  background-color: rgb(78, 147, 150, .6);
   position: absolute;
 
-  width: 34%;
-  min-width: 75px;
+  width: 25%;
   /* border: 3px red solid; */
 }
 
