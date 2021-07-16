@@ -334,7 +334,7 @@ top: -4vw;
 
 .hometext1div{
   display: inline-block;
-  min-width: 200px;
+  min-width: 190px;
   /* left: 50%;
   top: 50%;
   transform: translate(-50%, -50%); */
@@ -354,14 +354,14 @@ left: 2%;
   /* border: red solid 1px; */
   height: 35vw;
   width: 100%;
-  min-height: 370px;
+  min-height: 375px;
   overflow: hidden;
   /* min-width: 650px; */
 }
 .homepic{
   max-height: 100%;
-  min-width: 600px;
-  min-height: 370px;
+  min-width: 570px;
+  min-height: 375px;
   /* max-width: 100%; */
   /* object-position: 70px 50px; */
   object-fit: cover;
