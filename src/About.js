@@ -4,7 +4,10 @@ import faith from './img/faithabout.jpeg'
 
 class About extends React.Component{
 
-
+    componentDidMount(){
+        this.props.handsel('meabout')
+        console.log('about mounted')
+    }
 
     render(){
         window.scrollTo(0,0)

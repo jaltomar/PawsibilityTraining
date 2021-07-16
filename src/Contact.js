@@ -1,11 +1,20 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import Button from 'react-bootstrap/Button'
 import emailjs from 'emailjs-com'
 
 
 
 
-function Contact(){
+function Contact(props){
+
+
+
+    useEffect(()=>{
+            props.handsel('mecontact')
+            console.log('contact mounted')
+    },[])
+
+
 
     const [text, setText] = useState('')
     

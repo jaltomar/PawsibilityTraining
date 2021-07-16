@@ -8,7 +8,10 @@ class UpkeepForm extends React.Component{
         
     }
 
-
+    componentDidMount(){
+        this.props.handsel('meservices')
+        console.log('services mounted')
+    }
 
 
     render(){

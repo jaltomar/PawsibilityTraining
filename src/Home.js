@@ -10,6 +10,12 @@ import goldie from './img/lookupdog.jpeg'
 class Home extends React.Component{
 
 
+componentDidMount(){
+    this.props.handsel('mehome')
+    console.log('home mounted')
+}
+
+
 //color: '#2b5153' is color of darkest cyan in nav bar text
 
     render(){
@@ -107,12 +113,12 @@ Before we can create an individualized plan to help you and your dog, we want to
             <div width = '60%' style ={{minWidth: '350x'}}>
 
                 <div style = {{display: 'inline-block', padding: '0 20px 0 20px', textAlign: 'center'}}>
-                <p style = {{fontSize: '16pt', display: 'inline' }}> Ready to start? Check out our <a href = '#services' name = 'meservices' onClick = {this.props.myfunc}> services</a></p>
+                <p style = {{fontSize: '16pt', display: 'inline' }}> Ready to start? Check out our <a href = '#services' name = 'meservices'> services</a></p>
                 </div>
 
                 <div style = {{display: 'inline-block', padding: '0 20px 0 20px', textAlign: 'center'}}>
                 <p style = {{fontSize: '16pt', display: 'inline'}}>
-                Got questions? <a name = 'mecontact' href = '#contact' onClick = {this.props.myfunc}> Contact us</a>
+                Got questions? <a name = 'mecontact' href = '#contact' > Contact us</a>
                 </p>
                 </div>
 

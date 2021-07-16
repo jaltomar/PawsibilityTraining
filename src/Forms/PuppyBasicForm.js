@@ -8,6 +8,10 @@ class PuppyBasicForm extends React.Component{
 
     }
 
+    componentDidMount(){
+        this.props.handsel('meservices')
+        console.log('services mounted')
+    }
 
     render(){
         window.scrollTo(0,0)

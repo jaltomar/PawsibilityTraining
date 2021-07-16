@@ -14,6 +14,13 @@ import naildog from './img/teethie.jpg'
 class Services extends React.Component{
 
 
+
+    componentDidMount(){
+        this.props.handsel('meservices')
+        console.log('services mounted')
+    }
+
+
     render(){
         window.scrollTo(0,0)
 
