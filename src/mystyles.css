@@ -324,7 +324,7 @@ top: -4vw;
 }
 
 .hometext1{
-  font-size: calc(18px + 1.3vw);
+  font-size: calc(22px + .84vw);
   /* font-family: 'Courier New', Courier, monospace; */
   font-family: Didot;
   /* color: pink; */
@@ -339,7 +339,7 @@ top: -4vw;
   top: 50%;
   transform: translate(-50%, -50%); */
 left: 2%;
-  margin-top: 8%;
+  margin-top: calc(50px + 2.5vw);
   border-radius: 25px;
   background-color: rgb(78, 147, 150, .7);
   position: absolute;
