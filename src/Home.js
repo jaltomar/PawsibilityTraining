@@ -19,7 +19,7 @@ class Home extends React.Component{
 
                 <div className = 'homepicdiv'>
                     <div className = 'hometext1div'>
-                        <h3 className = 'hometext1'> Learn how to strengthen the relationship with your dog so that you are both happier.  Discover what's pawsible. </h3>
+                        <h3 className = 'hometext1'> Learn how to strengthen the relationship with your dog so that you are both happier.  Discover what's pawsible today. </h3>
                     </div>
 
                     <div className = 'homepicdiv'>
