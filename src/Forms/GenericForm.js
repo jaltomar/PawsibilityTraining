@@ -107,7 +107,7 @@ class GenericForm extends React.Component{
                 <form onSubmit = {this.handleSubmit}>
 
 
-                 <div style = {{border: 'red solid 2px'}}>
+                 <div>
                   <label>Full Name:</label><br/> <input type = 'text' className = 'inputtext' name = 'fname' value = {this.state.fname} onChange = {this.handleChange}/><br/>
                   <label>Phone:</label><br/> <input type = 'text' className = 'inputtext' name = 'phone' value = {this.state.phone} onChange = {this.handleChange}/><br/>
                   <label>Email:</label> <br/><input type = 'text' className = 'inputtext' name = 'email' value = {this.state.email} onChange = {this.handleChange}/> <br/>
@@ -132,7 +132,7 @@ class GenericForm extends React.Component{
 
 
 
-                <div style = {{ border: 'green solid 2px', textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
+                <div style = {{ textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
                   <textarea style = {{fontSize: '18px', width: '100%', height: '100px'}}name = 'whatkind' value = {this.state.whatkind} onChange = {this.handleChange} /><br/>
 
                 </div>
@@ -201,7 +201,7 @@ class GenericForm extends React.Component{
 
 
 
-                  <div style = {{ border: 'green solid 2px', textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
+                  <div style = {{  textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
                   <label>Please explain a little bit about your dog(s) and areas you would like to work on...
  </label><br/> <textarea style = {{fontSize: '18px', width: '100%', height: '100px'}}  name = 'pleaseexplain' value = {this.state.pleaseexplain} onChange = {this.handleChange}/> <br/>
                  </div>
@@ -209,7 +209,7 @@ class GenericForm extends React.Component{
                  
                  
                  
-                 <div style = {{ border: 'green solid 2px', textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
+                 <div style = {{ textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
                   <label>Who lives in your household and how old are they? What is their relationship to the dog(s)?
  </label><br/> <textarea style = {{fontSize: '18px', width: '100%', height: '100px'}}  name = 'wholives' value = {this.state.wholives} onChange = {this.handleChange}/><br/>
                  </div>
@@ -218,7 +218,7 @@ class GenericForm extends React.Component{
                  
                  
                  
-                 <div style = {{ border: 'green solid 2px', textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
+                 <div style = {{ textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
                   <label>Have you ever used a dog trainer/behaviorist/psychologist before? Please share your experiences.
  </label> <br/> <textarea style = {{fontSize: '18px', width: '100%', height: '100px'}} name = 'haveyou' value = {this.state.haveyou} onChange = {this.handleChange}/><br/>
                  </div>
@@ -228,7 +228,7 @@ class GenericForm extends React.Component{
                  
                  
                  
-                 <div style = {{ border: 'green solid 2px', textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
+                 <div style = {{ textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
                   <label>Questions/additional information:</label> <br/> <textarea style = {{fontSize: '18px', width: '100%', height: '100px'}} name = 'questions' value = {this.state.questions} onChange = {this.handleChange}/><br/>
                   </div>
 
@@ -237,7 +237,7 @@ class GenericForm extends React.Component{
 
 
 
-                  <p style = {{maxWidth: '400px'}}>Note:  All training starts with a half an hour consult to learn more about your dog ($50)</p>
+                  <p>Note:  All training starts with a half an hour consult to learn more about your dog ($50)</p>
                   <div style = {{textAlign: 'center'}}> 
                      <Button type = 'submit' className = 'mybutton'>Submit</Button><br/>
                   </div>
