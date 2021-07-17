@@ -269,10 +269,10 @@ text-align: left;
 font-size: 14pt;
   /* box-sizing: border-box; */
   display: inline-block;
-  padding: 10px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
   /* border: 8px solid blue; */
   width: 50%;
-  min-width: 325px;
+  min-width: 350px;
 
 
   
