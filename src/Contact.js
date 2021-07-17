@@ -12,7 +12,7 @@ function Contact(props){
     useEffect(()=>{
             props.handsel('mecontact')
             console.log('contact mounted')
-            // window.scrollTo(0,0)
+            window.scrollTo(0,0)
     },[])
 
 
