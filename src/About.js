@@ -1,5 +1,7 @@
 import React from 'react'
-import faith from './img/faithabout.jpeg'
+// import faith from './img/faithabout.jpeg'
+// import faith from './img/weirdsmile.png'
+import faith from './img/licky.png'
 
 
 class About extends React.Component{
