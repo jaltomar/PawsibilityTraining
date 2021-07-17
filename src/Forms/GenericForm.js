@@ -108,10 +108,10 @@ class GenericForm extends React.Component{
 
 
                  <div style = {{border: 'red solid 2px'}}>
-                  <label>Full Name:</label> <input type = 'text' className = 'inputtext' name = 'fname' value = {this.state.fname} onChange = {this.handleChange}/><br/>
-                  <label>Phone:</label> <input type = 'text' className = 'inputtext' name = 'phone' value = {this.state.phone} onChange = {this.handleChange}/><br/>
-                  <label>Email:</label> <input type = 'text' className = 'inputtext' name = 'email' value = {this.state.email} onChange = {this.handleChange}/> <br/>
-                  <label>Address:</label> <input type = 'text' className = 'inputtext' name = 'address' value = {this.state.address} onChange = {this.handleChange}/><br/>
+                  <label>Full Name:</label><br/> <input type = 'text' className = 'inputtext' name = 'fname' value = {this.state.fname} onChange = {this.handleChange}/><br/>
+                  <label>Phone:</label><br/> <input type = 'text' className = 'inputtext' name = 'phone' value = {this.state.phone} onChange = {this.handleChange}/><br/>
+                  <label>Email:</label> <br/><input type = 'text' className = 'inputtext' name = 'email' value = {this.state.email} onChange = {this.handleChange}/> <br/>
+                  <label>Address:</label> <br/><input type = 'text' className = 'inputtext' name = 'address' value = {this.state.address} onChange = {this.handleChange}/><br/>
                   <br/><br/>
 
                   
@@ -124,7 +124,7 @@ class GenericForm extends React.Component{
 
 
 
-                  <label>What kind of dog(s) do you have? How old are they?<br/> Are they spayed/neutered?</label><br/>
+                  <label>What kind of dog(s) do you have? How old are they? Are they spayed/neutered?</label><br/>
 
 
 
@@ -147,7 +147,7 @@ class GenericForm extends React.Component{
 
                   <label>How long have you had your dog(s)? </label> <br/><input type = 'text' className = 'inputtext' name = 'howlong' value = {this.state.howlong} onChange = {this.handleChange}/><br/>
                   <label>Is your dog crate trained? </label> <br/><input type = 'text' className = 'inputtext' name = 'cratetrained' value = {this.state.cratetrained} onChange = {this.handleChange}/><br/>
-                  <label style = {{display: 'inline-block', width: '50%'}}>What would you like to work on with your dog(s)? (select all that apply)</label><br/> 
+                  <label >What would you like to work on with your dog(s)? (select all that apply)</label><br/> 
                   <label>
                     <input type = 'radio' name = 'chewinghabits' value = 'Chewing Habits' onClick = {this.handleChange} checked = {this.state.chewinghabits === 'Chewing Habits, '} />
                     Chewing Habits

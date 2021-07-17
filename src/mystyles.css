@@ -307,8 +307,9 @@ font-size: 14pt;
 
 .inputtext{
   /* font-size: 12pt; */
-  width: calc(80px + 30vw);
-  resize: auto;
+  width: 100vw;
+  max-width: 600px;
+  /* resize: auto; */
   display: inline-block;
 }
 
