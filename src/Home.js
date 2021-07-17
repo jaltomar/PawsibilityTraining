@@ -77,7 +77,7 @@ componentDidMount(){
                 <div style = {{textAlign: 'center', border: 'brown solid 2px'}}> 
 
 
-<div style = {{width: '50%',  minWidth: '340px', border: 'blue solid 2px', textAlign:'center', display: 'inline-block'}}>
+<div style = {{width: '50%',  minWidth: '345px', border: 'blue solid 2px', textAlign:'center', display: 'inline-block'}}>
                 <div style = {{fontSize: '18pt', marginBottom: '20px',border: 'red solid 2px', display: 'inline-block', verticalAlign: 'top', marginRight: '0%', marginLeft: '0%', textAlign: 'center'}}>
 
           
@@ -112,7 +112,7 @@ componentDidMount(){
 
 
 
-<div style = {{width: '50%',  minWidth: '340px',border: 'blue solid 2px', textAlign:'center', display: 'inline-block'}}>
+<div style = {{width: '50%',  minWidth: '345px',border: 'blue solid 2px', textAlign:'center', display: 'inline-block'}}>
 
             <div style = {{display: 'inline-block', width: '100%', verticalAlign: 'top', textAlign: 'center', border: 'red solid 2px', marginRight: '0%', marginLeft: '0%'}}>
 
