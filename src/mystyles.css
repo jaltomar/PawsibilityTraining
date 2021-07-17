@@ -283,6 +283,10 @@ font-size: 14pt;
 
   text-align: center;
   padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: red solid 2px;
+  font-size: 14pt;
 }
 
 /* .blackbox{
@@ -293,7 +297,7 @@ font-size: 14pt;
 .formdiv{
   text-align: left;
   /* width: 96%; */
-  /* border: 2px solid black; */
+  border: 2px solid black;
   margin: auto;
   /* width: 350px; */
   display: inline-block;
@@ -302,7 +306,10 @@ font-size: 14pt;
 
 
 .inputtext{
-  width: 60%;
+  /* font-size: 12pt; */
+  width: calc(80px + 30vw);
+  resize: auto;
+  display: inline-block;
 }
 
 .mybutton{
