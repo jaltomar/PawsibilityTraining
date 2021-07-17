@@ -53,7 +53,7 @@ class Services extends React.Component{
                         <div className = 'servicetextdiv' >
                             <h2 style = {{textAlign: 'center'}}>General Obedience</h2>
                             <p>
-                            A strong foundation is essential for success with your dog. Your dog should be able to sit, down, stay, and come even in, and especially in, stressful situations. You should not have to worry about your dog dragging you down the street on a walk. Basic obedience can help your dog to remain calm in distracting environments as well as keep them, and others around you, safe. Obedience is important during times when you have visitors to your home, when you take your dog out in public, and even when you are alone with your dog.                    </p>
+                            A strong foundation is essential for success with your dog. Your dog should be able to sit, stay, and come in, especially in stressful situations. You should not have to worry about your dog dragging you down the street on a walk. Basic obedience can help your dog to remain calm in distracting environments as well as keep them, and others around you, safe. Obedience is important when you have visitors over, when you take your dog out in public, and even when you are alone with your dog.                    </p>
                           
                             <Button className = 'mybutton' href = '#obedience' >Sign Up</Button>
                         </div>

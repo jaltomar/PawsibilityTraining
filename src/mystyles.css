@@ -227,7 +227,9 @@ top: -4vw;
 .servicediv{
   /* box-sizing: border-box; */
   margin: auto;
+  text-align: center;
   padding-left: 20px;
+  padding-right: 20px;
   /* border: 8px solid green;  */
   /* display: inline-block; */
 
@@ -250,9 +252,10 @@ top: -4vw;
   /* border: 4px solid black; */
   /* text-align: center; */
   width: 50%;
+  min-width: 325px;
   /* width: 40vw; */
   /* width: 622px; */
-  height: 350px;
+  /* height: 350px; */
   /* height: 40vw; */
 
   
@@ -262,12 +265,14 @@ top: -4vw;
 
 
 .servicetextdiv{
-
+text-align: left;
+font-size: 14pt;
   /* box-sizing: border-box; */
   display: inline-block;
-  padding: 40px 20px 0px 20px;
+  padding: 10px 20px 0px 20px;
   /* border: 8px solid blue; */
   width: 50%;
+  min-width: 325px;
 
 
   
