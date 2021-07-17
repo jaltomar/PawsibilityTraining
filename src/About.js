@@ -16,7 +16,7 @@ class About extends React.Component{
 {/* <h1>hi</h1> */}
 
 
-            <div className = 'leadtraindiv' style = {{width: '45%', minWidth: '360px', overflow: 'hidden', padding: '0 0% 0 0%'}} >
+            <div className = 'leadtraindiv' style = {{width: '45%', minWidth: '370px', overflow: 'hidden', padding: '0 0% 0 0%'}} >
                 <img src = {faith} className = 'leadtrainimg' alt = 'faith'/>
             </div>
             <div className = 'leadtraindiv' style = {{width: '40%', minWidth: '360px',   padding: '0 2% 0 2%'}}>
