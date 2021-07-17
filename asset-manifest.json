@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cc8abb5b.chunk.css",
-    "main.js": "/static/js/main.d0dcdf9e.chunk.js",
-    "main.js.map": "/static/js/main.d0dcdf9e.chunk.js.map",
+    "main.js": "/static/js/main.40437baf.chunk.js",
+    "main.js.map": "/static/js/main.40437baf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.425e6d99.js",
     "runtime-main.js.map": "/static/js/runtime-main.425e6d99.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
@@ -17,7 +17,6 @@
     "static/media/beautydog.f7b7802d.jpeg": "/static/media/beautydog.f7b7802d.jpeg",
     "static/media/cutepup.6ec6e8f2.jpg": "/static/media/cutepup.6ec6e8f2.jpg",
     "static/media/egg.5150e5c1.jpeg": "/static/media/egg.5150e5c1.jpeg",
-    "static/media/faithabout.058b4687.jpeg": "/static/media/faithabout.058b4687.jpeg",
     "static/media/fieldpup.bf697456.jpeg": "/static/media/fieldpup.bf697456.jpeg",
     "static/media/licky.ae69db0a.png": "/static/media/licky.ae69db0a.png",
     "static/media/lookupdog.7f34c3fb.jpeg": "/static/media/lookupdog.7f34c3fb.jpeg",
@@ -33,6 +32,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.93d11b00.chunk.js",
     "static/css/main.cc8abb5b.chunk.css",
-    "static/js/main.d0dcdf9e.chunk.js"
+    "static/js/main.40437baf.chunk.js"
   ]
 }
