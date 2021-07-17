@@ -132,7 +132,7 @@ class GenericForm extends React.Component{
 
 
 
-                <div style = {{ border: 'green solid 2px', textAlign: 'left', display: '-block', width: '100%', maxWidth: '600px'}}>
+                <div style = {{ border: 'green solid 2px', textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
                   <textarea style = {{fontSize: '18px', width: '100%', height: '100px'}}name = 'whatkind' value = {this.state.whatkind} onChange = {this.handleChange} /><br/>
 
                 </div>
@@ -203,7 +203,7 @@ class GenericForm extends React.Component{
 
                   <div style = {{ border: 'green solid 2px', textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
                   <label>Please explain a little bit about your dog(s) and areas you would like to work on...
- </label><br/> <textarea style = {{fontSize: '18px', width: '100%', height: '160px'}}  name = 'pleaseexplain' value = {this.state.pleaseexplain} onChange = {this.handleChange}/> <br/>
+ </label><br/> <textarea style = {{fontSize: '18px', width: '100%', height: '100px'}}  name = 'pleaseexplain' value = {this.state.pleaseexplain} onChange = {this.handleChange}/> <br/>
                  </div>
                  
                  
@@ -211,7 +211,7 @@ class GenericForm extends React.Component{
                  
                  <div style = {{ border: 'green solid 2px', textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
                   <label>Who lives in your household and how old are they? What is their relationship to the dog(s)?
- </label><br/> <textarea style = {{fontSize: '18px', width: '100%', height: '160px'}}  name = 'wholives' value = {this.state.wholives} onChange = {this.handleChange}/><br/>
+ </label><br/> <textarea style = {{fontSize: '18px', width: '100%', height: '100px'}}  name = 'wholives' value = {this.state.wholives} onChange = {this.handleChange}/><br/>
                  </div>
                  
                  
@@ -220,7 +220,7 @@ class GenericForm extends React.Component{
                  
                  <div style = {{ border: 'green solid 2px', textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
                   <label>Have you ever used a dog trainer/behaviorist/psychologist before? Please share your experiences.
- </label> <br/> <textarea style = {{fontSize: '18px', width: '100%', height: '160px'}} name = 'haveyou' value = {this.state.haveyou} onChange = {this.handleChange}/><br/>
+ </label> <br/> <textarea style = {{fontSize: '18px', width: '100%', height: '100px'}} name = 'haveyou' value = {this.state.haveyou} onChange = {this.handleChange}/><br/>
                  </div>
                  
                  
@@ -229,7 +229,7 @@ class GenericForm extends React.Component{
                  
                  
                  <div style = {{ border: 'green solid 2px', textAlign: 'left', display: 'block', width: '100%', maxWidth: '600px'}}>
-                  <label>Questions/additional information:</label> <br/> <textarea style = {{fontSize: '18px', width: '100%', height: '160px'}} name = 'questions' value = {this.state.questions} onChange = {this.handleChange}/><br/>
+                  <label>Questions/additional information:</label> <br/> <textarea style = {{fontSize: '18px', width: '100%', height: '100px'}} name = 'questions' value = {this.state.questions} onChange = {this.handleChange}/><br/>
                   </div>
 
 
