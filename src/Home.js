@@ -34,7 +34,13 @@ componentDidMount(){
                 <br/>
 
 
-           
+
+
+
+                <div style = {{display: 'block', width: '100%', paddingLeft: '10px', paddingRight: '10px' }}>
+
+
+
                 <p className = 'myText'> Do you find yourself frustrated with your furry friend? Are there days when your dog pushes all of your buttons? Is your puppy terrorizing you with her razor sharp teeth? Are you having trouble teaching your dog to use the outside potty? Do you want your dog to learn unique and fun tricks? Let us help you and your dog grow together. </p>
                 
                <br/>
@@ -65,9 +71,11 @@ componentDidMount(){
 
                 <br/>
 
-                <div style = {{textAlign: 'center'}}> 
+                <div style = {{textAlign: 'center', border: 'brown solid 2px'}}> 
 
-                <div style = {{fontSize: '18pt', marginBottom: '20px', display: 'inline-block', verticalAlign: 'top', marginRight: '5%', marginLeft: '5%', textAlign: 'center'}}>
+
+<div style = {{width: '50%', border: 'blue solid 2px', minWidth: '445px', textAlign:'center', display: 'inline-block'}}>
+                <div style = {{fontSize: '18pt', marginBottom: '20px',border: 'red solid 2px', display: 'inline-block', verticalAlign: 'top', marginRight: '0%', marginLeft: '0%', textAlign: 'center'}}>
 
           
                 <h3>Expertise</h3>
@@ -95,7 +103,15 @@ componentDidMount(){
                 </div>
 
 
-            <div style = {{display: 'inline-block', width: '40%', minWidth: '325px', verticalAlign: 'top', textAlign: 'center', border: 'red solid 0px', marginRight: '5%', marginLeft: '5%'}}>
+      </div> 
+
+
+
+
+
+<div style = {{width: '50%',  minWidth: '445px',border: 'blue solid 2px', textAlign:'center', display: 'inline-block'}}>
+
+            <div style = {{display: 'inline-block', width: '100%', verticalAlign: 'top', textAlign: 'center', border: 'red solid 2px', marginRight: '0%', marginLeft: '0%'}}>
 
          
                 <p style = {{fontSize: '16pt', textAlign: 'left'}}>   
@@ -107,6 +123,11 @@ Before we can create an individualized plan to help you and your dog, we want to
 
             
             </div>
+
+</div>
+
+
+
 
             </div>
 
@@ -129,6 +150,12 @@ Before we can create an individualized plan to help you and your dog, we want to
 
 
 
+
+
+
+
+
+</div>
 
 
 
