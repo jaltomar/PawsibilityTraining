@@ -369,12 +369,17 @@ left: 2%;
 }
 
 .leadtraindiv{
-  margin-top: 3%;
+  margin-top: 30px;
+  padding: 0 2% 0 2%;
 
 /* border: red solid 3px; */
 display: inline-block;
-width: 500px;
-height: 525px;
+width: 40%;
+min-width: 300px;
+ /* width: 500px; */
+max-height: 525px;
+
+/* height: 525px; */
 vertical-align: top;
 
 /* color:#2c898c; */
