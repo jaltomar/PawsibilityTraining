@@ -149,7 +149,7 @@ ul {
   width: 50%;
 
 
-  min-width: 300px;
+  min-width: 360px;
   /* overflow: hidden; */
 }
 
@@ -172,7 +172,7 @@ vertical-align: middle;
   /* border: red solid 3px; */
   padding: 10px 10px 10 10px;
   width: 45%;
-  min-width: 350px;
+  min-width: 360px;
 
 
   /* height: 100%;
