@@ -53,6 +53,9 @@ componentDidMount(){
 
 
 
+</div>
+
+
                 {/* <div className = 'blackbox'> */}
                     <div className = 'multpic'>
                         <div className= 'rowpic'> 
@@ -155,7 +158,7 @@ Before we can create an individualized plan to help you and your dog, we want to
 
 
 
-</div>
+
 
 
 
