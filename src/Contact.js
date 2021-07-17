@@ -45,7 +45,7 @@ function Contact(props){
     return(
         <div style = {{textAlign: 'center', marginTop: '3%', fontSize: '16pt', color: '#482728'}}>
             
-            <div style = {{textAlign: 'left', width: '80%', maxWidth: '747px', margin: 'auto'}}>
+            <div style = {{textAlign: 'left', width: '95%', maxWidth: '747px', margin: 'auto'}}>
                 <p>Feel free to contact us with any questions or concerns you might have!</p>
                 <p>Call or text: 267-424-4239</p>
 
