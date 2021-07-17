@@ -50,10 +50,10 @@ function Contact(props){
                 <p>Email: pawsibilitytraining@gmail.com</p><br/>
 
                 <label>Send a message: </label>
-                <div style = {{textAlign: 'left', width: '100%', maxWidth: '747px', overflow: 'hidden'}}>
+                <div style = {{textAlign: 'left', display: 'inline-block', width: '100%', maxWidth: '747px'}}>
 
                  <form onSubmit = {handleSubmit}>
-                <textarea style = {{fontSize: '18px', resize: 'auto'}}name = 'message' onChange = {handleChange} value = {text} rows = '6' cols = '80'/><br/>
+                <textarea style = {{fontSize: '18px', width: '100%', height: '120px'}}name = 'message' onChange = {handleChange} value = {text}  /><br/>
 
                 <div style = {{textAlign: 'center'}}>
                 <Button type = 'submit' className = 'mybutton'>Submit</Button>
@@ -61,6 +61,7 @@ function Contact(props){
                 </form>
                 </div>
                 <br/>
+
 
             </div>
          </div>

@@ -11,12 +11,13 @@ body{
   background-color: #F4EBD9;
 }
 .myText{
+  /* font-family: Georgia; */
   /* border: red solid 1px; */
   font-size: 16pt;
   text-align: left;
   /* padding-top: 1%; */
   padding: 1% 0 1% 0;
-  width: 60%;
+  width: 80%;
   min-width: 300px;
   /* padding-left: 20%;
   padding-right: 20%; */
