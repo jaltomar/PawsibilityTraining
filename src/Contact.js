@@ -12,7 +12,7 @@ function Contact(props){
     useEffect(()=>{
             props.handsel('mecontact')
             console.log('contact mounted')
-            window.scrollTo(0,0)
+            // window.scrollTo(0,0)
     },[])
 
 
@@ -58,11 +58,11 @@ function Contact(props){
                 <textarea style = {{fontSize: '18px', width: '100%', height: '160px'}}name = 'message' onChange = {handleChange} value = {text}  /><br/>
 
                 <div style = {{textAlign: 'center'}}>
-                <Button type = 'submit' className = 'mybutton'>Submit</Button>
+                <Button type = 'submit' style = {{marginBottom: '20px'}} className = 'mybutton'>Submit</Button>
                 </div>
                 </form>
                 </div>
-                <br/><br/>
+         
 
 
             </div>
