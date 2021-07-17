@@ -404,7 +404,7 @@ left: 2%;
 /* border: red solid 3px; */
 display: inline-block;
 width: 40%;
-/* min-width: 300px; */
+min-width: 300px;
  /* width: 500px; */
 max-height: 525px;
 
