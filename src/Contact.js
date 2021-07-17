@@ -42,8 +42,9 @@ function Contact(props){
     window.scrollTo(0,0)
 
     return(
-        <div style = {{textAlign: 'center', marginTop: '3%', fontSize: '22px', color: '#482728'}}>
-            <div style = {{textAlign: 'left', width: '70%', maxWidth: '747px', margin: 'auto'}}>
+        <div style = {{textAlign: 'center', marginTop: '3%', fontSize: '16pt', color: '#482728'}}>
+            
+            <div style = {{textAlign: 'left', width: '80%', maxWidth: '747px', margin: 'auto'}}>
                 <p>Feel free to contact us with any questions or concerns you might have!</p>
                 <p>Call or text: 267-424-4239</p>
 
@@ -53,7 +54,7 @@ function Contact(props){
                 <div style = {{textAlign: 'left', display: 'inline-block', width: '100%', maxWidth: '747px'}}>
 
                  <form onSubmit = {handleSubmit}>
-                <textarea style = {{fontSize: '18px', width: '100%', height: '120px'}}name = 'message' onChange = {handleChange} value = {text}  /><br/>
+                <textarea style = {{fontSize: '18px', width: '100%', height: '140px'}}name = 'message' onChange = {handleChange} value = {text}  /><br/>
 
                 <div style = {{textAlign: 'center'}}>
                 <Button type = 'submit' className = 'mybutton'>Submit</Button>

@@ -303,8 +303,18 @@ top: -4vw;
 
 .mybutton{
   margin: auto;
+  padding: 0px;
+
+  text-align: center;
+  
+  font-size: 14pt;
+
    display: block;
-    width: 84px;
+
+    width: 90px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    /* height: 40px; */
     background-color: #56A3A6;
 /* color: #2b5153; */
 

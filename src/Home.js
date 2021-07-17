@@ -38,7 +38,7 @@ componentDidMount(){
                 <p className = 'myText'> Do you find yourself frustrated with your furry friend? Are there days when your dog pushes all of your buttons? Is your puppy terrorizing you with her razor sharp teeth? Are you having trouble teaching your dog to use the outside potty? Do you want your dog to learn unique and fun tricks? Let us help you and your dog grow together. </p>
                 
                <br/>
-               <h3 style = {{padding: '1% 0 1% 0', width: '60%', minWidth: '300px', margin: 'auto'}}>Serving in and around Weston and Walthom</h3>
+               <h3 style = {{padding: '1% 0 1% 0', width: '60%', minWidth: '300px', margin: 'auto'}}>Serving in and around Weston and Waltham</h3>
                
                <img src = {dogpic} className = 'hickFaith' alt = "faith and dog pic" /><br/>
                <p className = 'myText'><h3 style = {{textAlign: 'center'}}>Private, individualized training</h3>
