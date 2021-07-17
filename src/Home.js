@@ -116,12 +116,13 @@ componentDidMount(){
 
             <div style = {{display: 'inline-block', width: '100%', verticalAlign: 'top', textAlign: 'center', marginRight: '0%', marginLeft: '0%'}}>
 
-         
+         <div style = {{maxWidth: '500px', margin: 'auto'}}>
                 <p style = {{fontSize: '16pt', textAlign: 'left'}}>   
                 <h3 style = {{textAlign: 'center'}} > Getting started</h3>      
 Consult:
 Before we can create an individualized plan to help you and your dog, we want to get to know your dog and her behaviors. During our 30 minute consultation, we will ask you questions about your goals and pet’s history as well as observe your dog’s current behaviors. 
 </p>
+</div>
 
 
             

@@ -172,7 +172,7 @@ vertical-align: middle;
   /* border: red solid 3px; */
   padding: 10px 10px 10 10px;
   width: 50%;
-  min-width: 350px;
+  min-width: 360px;
 
 
   /* height: 100%;
@@ -200,7 +200,7 @@ li span {
   max-height: 100%; */
   min-height: 250px;
   height: 35vw;
-  width: 90%;
+  width: 95%;
   object-fit: cover;
   /* object-position: 0 0 100%; */
 
